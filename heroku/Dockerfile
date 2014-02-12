@@ -1,4 +1,4 @@
- from    progrium/buildstep
+ from    git.bonustab.net:5050/bonustab/buildstep
  run     apt-get install wget -y --force-yes
  run     wget http://github.com/g00d-guy/basebuilder/tarball/master -O basebuilder.tar.gz --no-check-certificate
  run     mkdir /var/lib/tsuru
